@@ -1,0 +1,322 @@
+{
+  "common": {
+    "appName": "Flow Car Service Manager",
+    "welcome": "Welcome",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "time": "Time",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "language": "Language",
+    "tryAgain": "Try Again",
+    "more": "more"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "companies": "Companies",
+    "customers": "Customers",
+    "vehicles": "Vehicles",
+    "technicians": "Technicians",
+    "services": "Services",
+    "inventory": "Inventory",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcomeMessage": "Welcome to your car service management dashboard",
+    "quickActions": "Quick Actions",
+    "recentActivity": "Recent Activity",
+    "upcomingServices": "Upcoming Services",
+    "stats": {
+      "companies": "Companies",
+      "customers": "Customers",
+      "vehicles": "Vehicles",
+      "technicians": "Technicians",
+      "activeServices": "Active Services",
+      "upcomingServices": "Upcoming Services",
+      "lowStockAlerts": "Low Stock Alerts"
+    },
+    "actions": {
+      "addCustomer": "Add Customer",
+      "registerVehicle": "Register Vehicle",
+      "createService": "Create Service",
+      "manageInventory": "Manage Inventory"
+    }
+  },
+  "companies": {
+    "title": "Companies",
+    "addCompany": "Add Company",
+    "editCompany": "Edit Company",
+    "companyName": "Company Name",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "createdAt": "Created At",
+    "syncStatus": "Sync Status"
+  },
+  "customers": {
+    "title": "Customers",
+    "addCustomer": "Add Customer",
+    "editCustomer": "Edit Customer",
+    "customerName": "Customer Name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "vehicles": "Vehicles",
+    "totalServices": "Total Services",
+    "lastService": "Last Service"
+  },
+  "vehicles": {
+    "title": "Vehicles",
+    "addVehicle": "Add Vehicle",
+    "editVehicle": "Edit Vehicle",
+    "plateNo": "Plate Number",
+    "brand": "Brand",
+    "model": "Model",
+    "year": "Year",
+    "vin": "VIN",
+    "customer": "Customer",
+    "serviceHistory": "Service History",
+    "upcomingServices": "Upcoming Services"
+  },
+  "technicians": {
+    "title": "Technicians",
+    "addTechnician": "Add Technician",
+    "editTechnician": "Edit Technician",
+    "technicianName": "Technician Name",
+    "phone": "Phone",
+    "specialization": "Specialization",
+    "hireDate": "Hire Date",
+    "active": "Active",
+    "inactive": "Inactive",
+    "servicesCompleted": "Services Completed"
+  },
+  "services": {
+    "title": "Services",
+    "addService": "Add Service",
+    "editService": "Edit Service",
+    "serviceRecord": "Service Record",
+    "serviceDate": "Service Date",
+    "serviceType": "Service Type",
+    "description": "Description",
+    "totalCost": "Total Cost",
+    "vehicle": "Vehicle",
+    "customer": "Customer",
+    "technician": "Technician",
+    "status": "Status",
+    "statuses": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "serviceTypes": {
+      "oilChange": "Oil Change",
+      "brakeService": "Brake Service",
+      "tireRotation": "Tire Rotation",
+      "generalMaintenance": "General Maintenance",
+      "acService": "AC Service",
+      "transmissionService": "Transmission Service",
+      "engineTuneup": "Engine Tune-up",
+      "wheelAlignment": "Wheel Alignment",
+      "batteryReplacement": "Battery Replacement",
+      "filterReplacement": "Filter Replacement"
+    },
+    "componentsUsed": "Components Used",
+    "serviceDetails": "Service Details"
+  },
+  "inventory": {
+    "title": "Inventory Management",
+    "addComponent": "Add Component",
+    "editComponent": "Edit Component",
+    "componentName": "Component Name",
+    "partNumber": "Part Number",
+    "price": "Price",
+    "stockCount": "Stock Count",
+    "reorderLevel": "Reorder Level",
+    "lowStock": "Low Stock",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "totalValue": "Total Value"
+  },
+  "reports": {
+    "title": "Reports",
+    "generateReport": "Generate Report",
+    "scheduleReport": "Schedule Report",
+    "reportType": "Report Type",
+    "reportTypes": {
+      "service": "Service Report",
+      "stock": "Stock Report",
+      "vehicle": "Vehicle Report",
+      "technician": "Technician Report",
+      "customer": "Customer Report",
+      "upcoming": "Upcoming Services Report"
+    },
+    "generatedAt": "Generated At",
+    "summary": "Summary",
+    "serviceReport": {
+      "totalCost": "Total Cost",
+      "partsUsed": "Parts Used",
+      "technicianName": "Technician Name",
+      "serviceDate": "Service Date",
+      "vehiclePlate": "Vehicle Plate"
+    },
+    "stockReport": {
+      "totalItems": "Total Items",
+      "totalValue": "Total Value",
+      "lowStockItems": "Low Stock Items"
+    },
+    "scheduledReports": {
+      "title": "Scheduled Reports",
+      "addSchedule": "Add Schedule",
+      "editSchedule": "Edit Schedule",
+      "scheduleType": "Schedule Type",
+      "scheduleTypes": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "custom": "Custom"
+      },
+      "frequency": "Frequency",
+      "nextRun": "Next Run",
+      "lastRun": "Last Run",
+      "isActive": "Active",
+      "emailRecipients": "Email Recipients",
+      "parameters": "Parameters",
+      "runNow": "Run Now",
+      "pause": "Pause",
+      "resume": "Resume",
+      "delete": "Delete Schedule"
+    },
+    "dashboard": {
+      "totalReports": "Total Reports",
+      "recentReports": "Recent Reports (7 days)",
+      "scheduledReports": "Scheduled Reports",
+      "activeSchedules": "Active Schedules",
+      "serviceReports": "Service Reports",
+      "stockReports": "Stock Reports",
+      "upcomingReports": "Upcoming Reports",
+      "quickActions": "Quick Actions",
+      "viewAllReports": "View All Reports",
+      "createSchedule": "Create Schedule",
+      "generateNow": "Generate Now"
+    },
+    "categories": {
+      "service": "Service Reports",
+      "stock": "Stock Reports",
+      "technician": "Technician Reports",
+      "customer": "Customer Reports",
+      "vehicle": "Vehicle Reports",
+      "scheduled": "Scheduled Reports",
+      "recent": "Recent Reports"
+    }
+  },
+  "upcomingServices": {
+    "title": "Upcoming Services",
+    "addUpcomingService": "Schedule Service",
+    "editUpcomingService": "Edit Service",
+    "plannedDate": "Planned Date",
+    "serviceType": "Service Type",
+    "notes": "Notes",
+    "reminderSent": "Reminder Sent",
+    "status": "Status",
+    "statuses": {
+      "pending": "Pending",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "serviceTypes": {
+      "maintenance": "Maintenance",
+      "tireRotation": "Tire Rotation"
+    }
+  },
+  "sync": {
+    "syncStatus": "Sync Status",
+    "statuses": {
+      "pending": "Pending",
+      "synced": "Synced",
+      "error": "Error"
+    },
+    "lastSynced": "Last Synced",
+    "syncNow": "Sync Now"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "invalidDate": "Invalid date",
+    "minLength": "Must be at least {min} characters",
+    "maxLength": "Must be at most {max} characters"
+  },
+  "messages": {
+    "saveSuccess": "Successfully saved",
+    "deleteSuccess": "Successfully deleted",
+    "deleteConfirm": "Are you sure you want to delete?",
+    "noData": "No data found",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful"
+  },
+  "dates": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "nextMonth": "Next Month",
+    "hoursAgo": "hours ago",
+    "dayAgo": "day ago",
+    "days": "days"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_API_URL": "http://localhost:8080/api"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_API_URL": "http://localhost:8080/api"
+    }
+  },
+  "regions": ["iad1"],
+  "public": false,
+  "github": {
+    "silent": true
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "common": {
+    "appName": "Flow Araç Servis Yöneticisi",
+    "welcome": "Hoş Geldiniz",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "view": "Görüntüle",
+    "add": "Ekle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "export": "Dışa Aktar",
+    "import": "İçe Aktar",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "warning": "Uyarı",
+    "info": "Bilgi",
+    "confirm": "Onayla",
+    "yes": "Evet",
+    "no": "Hayır",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "submit": "Gönder",
+    "reset": "Sıfırla",
+    "actions": "İşlemler",
+    "status": "Durum",
+    "date": "Tarih",
+    "time": "Saat",
+    "price": "Fiyat",
+    "quantity": "Miktar",
+    "total": "Toplam",
+    "language": "Dil",
+    "tryAgain": "Tekrar Dene",
+    "more": "daha fazla",
+    "viewAll": "Hepsini Gör"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "companies": "Şirketler",
+    "customers": "Müşteriler",
+    "vehicles": "Araçlar",
+    "technicians": "Teknisyenler",
+    "services": "Servisler",
+    "inventory": "Stok",
+    "reports": "Raporlar",
+    "settings": "Ayarlar"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcomeMessage": "Araç servis yönetim dashboard'ınıza hoş geldiniz",
+    "quickActions": "Hızlı İşlemler",
+    "recentActivity": "Son Aktiviteler",
+    "upcomingServices": "Yaklaşan Servisler",
+    "stats": {
+      "companies": "Şirketler",
+      "customers": "Müşteriler",
+      "vehicles": "Araçlar",
+      "technicians": "Teknisyenler",
+      "activeServices": "Aktif Servisler",
+      "upcomingServices": "Yaklaşan Servisler",
+      "lowStockAlerts": "Düşük Stok Uyarıları"
+    },
+    "actions": {
+      "addCustomer": "Müşteri Ekle",
+      "registerVehicle": "Araç Kaydet",
+      "createService": "Servis Oluştur",
+      "manageInventory": "Stok Yönetimi"
+    }
+  },
+  "companies": {
+    "title": "Şirketler",
+    "addCompany": "Şirket Ekle",
+    "editCompany": "Şirket Düzenle",
+    "companyName": "Şirket Adı",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "createdAt": "Oluşturulma Tarihi",
+    "syncStatus": "Senkronizasyon Durumu"
+  },
+  "customers": {
+    "title": "Müşteriler",
+    "addCustomer": "Müşteri Ekle",
+    "editCustomer": "Müşteri Düzenle",
+    "customerName": "Müşteri Adı",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "vehicles": "Araçlar",
+    "totalServices": "Toplam Servis",
+    "lastService": "Son Servis"
+  },
+  "vehicles": {
+    "title": "Araçlar",
+    "addVehicle": "Araç Ekle",
+    "editVehicle": "Araç Düzenle",
+    "plateNo": "Plaka",
+    "brand": "Marka",
+    "model": "Model",
+    "year": "Yıl",
+    "vin": "Şasi No",
+    "customer": "Müşteri",
+    "serviceHistory": "Servis Geçmişi",
+    "upcomingServices": "Yaklaşan Servisler"
+  },
+  "technicians": {
+    "title": "Teknisyenler",
+    "addTechnician": "Teknisyen Ekle",
+    "editTechnician": "Teknisyen Düzenle",
+    "technicianName": "Teknisyen Adı",
+    "phone": "Telefon",
+    "specialization": "Uzmanlık",
+    "hireDate": "İşe Başlama Tarihi",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "servicesCompleted": "Tamamlanan Servisler"
+  },
+  "services": {
+    "title": "Servisler",
+    "addService": "Servis Ekle",
+    "editService": "Servis Düzenle",
+    "serviceRecord": "Servis Kaydı",
+    "serviceDate": "Servis Tarihi",
+    "serviceType": "Servis Türü",
+    "description": "Açıklama",
+    "totalCost": "Toplam Maliyet",
+    "vehicle": "Araç",
+    "customer": "Müşteri",
+    "technician": "Teknisyen",
+    "status": "Durum",
+    "statuses": {
+      "pending": "Bekliyor",
+      "in_progress": "Devam Ediyor",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    },
+    "serviceTypes": {
+      "oilChange": "Yağ Değişimi",
+      "brakeService": "Fren Servisi",
+      "tireRotation": "Lastik Rotasyonu",
+      "generalMaintenance": "Genel Bakım",
+      "acService": "Klima Servisi",
+      "transmissionService": "Şanzıman Servisi",
+      "engineTuneup": "Motor Ayarı",
+      "wheelAlignment": "Balans Ayarı",
+      "batteryReplacement": "Akü Değişimi",
+      "filterReplacement": "Filtre Değişimi"
+    },
+    "componentsUsed": "Kullanılan Parçalar",
+    "serviceDetails": "Servis Detayları"
+  },
+  "inventory": {
+    "title": "Stok Yönetimi",
+    "addComponent": "Parça Ekle",
+    "editComponent": "Parça Düzenle",
+    "componentName": "Parça Adı",
+    "partNumber": "Parça Numarası",
+    "price": "Fiyat",
+    "stockCount": "Stok Miktarı",
+    "reorderLevel": "Yeniden Sipariş Seviyesi",
+    "lowStock": "Düşük Stok",
+    "outOfStock": "Stokta Yok",
+    "inStock": "Stokta Var",
+    "totalValue": "Toplam Değer"
+  },
+  "reports": {
+    "title": "Raporlar",
+    "generateReport": "Rapor Oluştur",
+    "reportType": "Rapor Türü",
+    "reportTypes": {
+      "service": "Servis Raporu",
+      "stock": "Stok Raporu",
+      "vehicle": "Araç Raporu",
+      "technician": "Teknisyen Raporu",
+      "customer": "Müşteri Raporu",
+      "upcoming": "Yaklaşan Servisler Raporu"
+    },
+    "generatedAt": "Oluşturulma Tarihi",
+    "summary": "Özet",
+    "serviceReport": {
+      "totalCost": "Toplam Maliyet",
+      "partsUsed": "Kullanılan Parçalar",
+      "technicianName": "Teknisyen Adı",
+      "serviceDate": "Servis Tarihi",
+      "vehiclePlate": "Araç Plakası"
+    },
+    "stockReport": {
+      "totalItems": "Toplam Ürün",
+      "totalValue": "Toplam Değer",
+      "lowStockItems": "Düşük Stok Ürünleri"
+    }
+  },
+  "upcomingServices": {
+    "title": "Yaklaşan Servisler",
+    "addUpcomingService": "Servis Planla",
+    "editUpcomingService": "Servis Düzenle",
+    "plannedDate": "Planlanan Tarih",
+    "serviceType": "Servis Türü",
+    "notes": "Notlar",
+    "reminderSent": "Hatırlatma Gönderildi",
+    "status": "Durum",
+    "statuses": {
+      "pending": "Bekliyor",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    },
+    "serviceTypes": {
+      "maintenance": "Bakım",
+      "tireRotation": "Lastik Rotasyonu"
+    }
+  },
+  "sync": {
+    "syncStatus": "Senkronizasyon Durumu",
+    "statuses": {
+      "pending": "Bekliyor",
+      "synced": "Senkronize Edildi",
+      "error": "Hata"
+    },
+    "lastSynced": "Son Senkronizasyon",
+    "syncNow": "Şimdi Senkronize Et"
+  },
+  "validation": {
+    "required": "Bu alan zorunludur",
+    "invalidEmail": "Geçersiz e-posta adresi",
+    "invalidPhone": "Geçersiz telefon numarası",
+    "invalidDate": "Geçersiz tarih",
+    "minLength": "En az {min} karakter olmalıdır",
+    "maxLength": "En fazla {max} karakter olmalıdır"
+  },
+  "messages": {
+    "saveSuccess": "Başarıyla kaydedildi",
+    "deleteSuccess": "Başarıyla silindi",
+    "deleteConfirm": "Silmek istediğinizden emin misiniz?",
+    "noData": "Veri bulunamadı",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "success": "İşlem başarılı"
+  },
+  "dates": {
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "tomorrow": "Yarın",
+    "thisWeek": "Bu Hafta",
+    "thisMonth": "Bu Ay",
+    "lastMonth": "Geçen Ay",
+    "nextMonth": "Gelecek Ay",
+    "hoursAgo": "saat önce",
+    "dayAgo": "gün önce",
+    "days": "gün"
+  },
+  "months": {
+    "january": "Ocak",
+    "february": "Şubat",
+    "march": "Mart",
+    "april": "Nisan",
+    "may": "Mayıs",
+    "june": "Haziran",
+    "july": "Temmuz",
+    "august": "Ağustos",
+    "september": "Eylül",
+    "october": "Ekim",
+    "november": "Kasım",
+    "december": "Aralık"
+  },
+  "days": {
+    "monday": "Pazartesi",
+    "tuesday": "Salı",
+    "wednesday": "Çarşamba",
+    "thursday": "Perşembe",
+    "friday": "Cuma",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar"
+  }
+}

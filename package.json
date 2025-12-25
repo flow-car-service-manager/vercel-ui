@@ -1,0 +1,45 @@
+{
+  "name": "flow-car-service-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Flow Car Service Manager",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "docker:build": "docker build -t flow-car-service-frontend .",
+    "docker:run": "docker run -p 3000:3000 -e NEXT_PUBLIC_API_URL=http://localhost:8080/api flow-car-service-frontend",
+    "docker:test": "./test-docker.sh",
+    "deploy:vercel": "vercel --prod",
+    "deploy:build": "./build-and-test.sh"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "axios": "^1.6.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "lucide-react": "^0.294.0",
+    "next": "^15.5.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^15.5.9",
+    "postcss": "^8.4.31",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "car-service"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
