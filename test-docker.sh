@@ -71,7 +71,7 @@ fi
 
 # Test health endpoint
 print_info "Testing health endpoint..."
-HEALTH_RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:3001/api/health || echo "000")
+HEALTH_RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:3001/api/health/ || echo "000")
 
 if [ "$HEALTH_RESPONSE" = "200" ]; then
     print_success "Health check passed! (HTTP $HEALTH_RESPONSE)"
@@ -79,7 +79,7 @@ if [ "$HEALTH_RESPONSE" = "200" ]; then
     # Get health details
     echo ""
     print_info "Health check details:"
-    curl -s http://localhost:3001/api/health | python3 -m json.tool 2>/dev/null || curl -s http://localhost:3001/api/health
+    curl -s http://localhost:3001/api/health/ | python3 -m json.tool 2>/dev/null || curl -s http://localhost:3001/api/health/
 else
     print_error "Health check failed! (HTTP $HEALTH_RESPONSE)"
     docker logs flow-car-test
